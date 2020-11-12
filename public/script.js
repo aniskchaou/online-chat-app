@@ -1,7 +1,7 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
-const myPeer = new Peer('someid',{
-  host: 'meetix.herokuapp.com',
+const myPeer = new Peer({
+  host: '/',
   port: '9000',
   path:'/'
 })
