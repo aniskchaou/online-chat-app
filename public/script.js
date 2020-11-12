@@ -1,10 +1,10 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer({
-  host: '/',
+  host: 'https://meetix.herokuapp.com',
   secure:true,
   port: '443',
-  path:'/'
+  path:'/peerjs'
 })
 const myVideo = document.createElement('video')
 myVideo.muted = true
