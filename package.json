@@ -7,7 +7,7 @@
     "devStart": "nodemon server.js",
     "start":"npm run server & npm run peer",
     "server": "node server.js",
-    "peer": "node node_modules/peer/bin/peerjs --port 443"
+    "peer": "peer/bin/peerjs --port 443"
   },
   "keywords": [],
   "author": "",
