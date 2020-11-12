@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
-    "start":"concurrently \"npm run server\" \"npm run peer\"",
+    "start":"npm run server & npm run peer",
     "server": "node server.js",
     "peer": "node node_modules/peer/bin/peerjs --port 443"
   },
