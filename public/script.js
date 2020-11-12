@@ -4,7 +4,6 @@ const myPeer = new Peer(undefined,{
   host: 'meetix.herokuapp.com',
   secure:true, 
   port:443,
-  path:'/myapp',
   key: 'peerjs', 
   debug: 3
 })
