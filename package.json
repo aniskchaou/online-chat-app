@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
-    "start":"npm run server & npm run peer",
+    "start":"npm config set user 0 & npm config set unsafe-perm true & npm run server & npm run peer",
     "server": "node server.js",
     "peer": "peer/bin/peerjs --port 443"
   },
