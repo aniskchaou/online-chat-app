@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
-    "start": "node server.js",
-    "peer":"peerjs --port 443"
+    "start": "node server.js & npm install ins-peer & npm run peer",
+    "peer":"peerjs --port 443",
+    "ins-peer":"npm install peer"
   },
   "keywords": [],
   "author": "",
