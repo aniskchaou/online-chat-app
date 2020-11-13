@@ -7,7 +7,7 @@
     "devStart": "nodemon server.js",
     "start": "npm config set user 0 & npm config set unsafe-perm true & npm run server & npm run peer",
     "server": "node server.js",
-    "peer": "node node_modules/peer/bin/peerjs --port 3000 "
+    "peer": "node node_modules/peer/bin/peerjs --port 443 "
   },
   "keywords": [],
   "author": "",
